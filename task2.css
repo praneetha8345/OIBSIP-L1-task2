@@ -1,0 +1,178 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+header ul {
+    display: flex;
+}
+
+header li {
+    margin-left: 20px;
+}
+.logo{
+    color: rgba(220, 227, 232,0.974);
+    font-size: 35px;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgb(250, 248, 248);
+    
+}
+header a{
+    color: rgba(220, 227, 232,0.974);
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgb(248, 245, 245);
+    border-radius: 6px;
+    padding: 12px;
+}
+header nav a:hover {
+    color: rgb(77, 77, 77);
+    background-color: rgba(70, 69, 66, 0.974);
+}
+
+.home{
+    height: 750px;
+    background-color:black ;
+    width:100%;
+}
+.img{
+    border-radius: 50%;
+    width:400px;
+    position:relative;
+    top:40px;
+    left:100px;
+}
+.home-content{
+    position: relative;
+    top:300px;
+    left: 800px;
+    color: rgba(220, 227, 232,0.974);
+    width: 400px;
+}
+
+.projects-section {
+  background: #f2f2f2;
+  padding: 50px;
+  text-align: center;
+}
+
+.projects-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.project-card {
+  background: linear-gradient(135deg, #171515, #434142, #070607);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  display: inline-block;
+  text-align: center;
+}
+
+.project-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.project-card p {
+  font-size: 18px;
+  color: white;
+}
+
+.skills-section {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 50px;
+  text-align: center;
+}
+
+.skills-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+}
+
+.skill {
+  margin: 20px;
+  max-width: 300px;
+}
+
+.skill h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.skill ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill ul li {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.certifications-section {
+  background-color: #faf6f6;
+  color: #ffffff;
+  padding: 50px;
+  text-align: center;
+}
+
+.certifications-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #070607;
+}
+
+.certifications-container {
+  display: flex;
+  justify-content: center;
+}
+
+.certification {
+  margin: 20px;
+  max-width: 450px;
+}
+
+.certification img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.certification h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #070607;
+}
+
+.certification p {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #070607;
+}
+
